@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  
 }
 h1 {
   font-size: 1.25em;
@@ -98,6 +99,23 @@ label:last-child {
   color: #090;
 }
 
+
+table, th,  {
+    border: 2px black;
+	border-collapse: collapse;
+}
+
+ul li {
+   background: #cce5ff;
+   padding:1px;
+ 
+  }
+
+dl dt{
+   background: #cce5ff;
+   padding:2px;
+  }
+
 .tab-content {
   background: #fff;
 }
@@ -129,11 +147,6 @@ label:last-child {
 }
 
 
-<ul class="a">
-  <li>CSS is a language that describes the style of an HTML document.</li>
-  <li>CSS describes how HTML elements should be displayed.</li>
-  <li>This tutorial will teach you CSS from basic to advanced.</li>
-</ul>
 
 
 
